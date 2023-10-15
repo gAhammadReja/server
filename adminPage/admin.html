@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colepediya Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <div>
+        <h2>Welcome To Colepediya Admin Panel</h2>
+        <h5 onclick="logout()">Log Out</h5>
+      </div>
+    </nav>
+    <div class="main">
+        <h1>ADD A New College On Site</h1>
+        <form action="" onsubmit="addCollege()">
+            <div>
+                <label for="cName">College Name:</label>
+                <input type="text" name="cName">
+            </div>
+            
+            <div>
+                <label for="uName">University Name:</label>
+                <input type="text" name="uName">
+            </div>
+            
+            <div>
+                <label for="cType">College Type:</label>
+                <input type="text" name="cType">
+            </div>
+
+            <div>
+                <label for="district">District Name:</label>
+                <input type="text" name="district">
+            </div>
+
+            <div>
+                <label for="state">State Name:</label>
+                <input type="text" name="state">
+            </div>
+
+            <div>
+                <label for="aFees">Addmission Fees:</label>
+                <input type="text" name="aFees">
+            </div>
+
+            <div>
+                <label for="cFees">Course Fees:</label>
+                <input type="text" name="cFees">
+            </div>
+            
+            <div>
+                <label for="photo">College Photo:</label>
+                <input type="file" name="photo">
+            </div>
+            
+            <div>
+                <input type="submit" value="Submit To Add College">
+            </div>
+        </form>
+    </div>
+
+  </body>
+</html>
